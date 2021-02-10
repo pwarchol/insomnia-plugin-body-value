@@ -1,0 +1,35 @@
+{
+  "name": "insomnia-plugin-body-value",
+  "version": "1.0.0",
+  "main": "main.js",
+  "insomnia": {
+    "name": "body-value",
+    "displayName": "Body value",
+    "description": "This plugin allows to extract value from current request body",
+    "publisher": {
+      "name": "pwarchol"
+    }
+  },
+  "dependencies": {
+    "insomnia-xpath": "^2.2.24",
+    "jsonpath": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwarchol/insomnia-plugin-body-value.git"
+  },
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "body",
+    "value",
+    "xpath",
+    "jsonpath"
+  ],
+  "author": "pwarchol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pwarchol/insomnia-plugin-body-value/issues"
+  },
+  "homepage": "https://github.com/pwarchol/insomnia-plugin-body-value#readme"
+}
